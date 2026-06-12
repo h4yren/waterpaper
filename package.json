@@ -1,0 +1,25 @@
+{
+  "name": "waterpaper",
+  "version": "1.0.0",
+  "description": "法学论文写作工作流：文献搜索(含知网CDP) + 语言润色 + 文档生成",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "check": "bash scripts/check-deps.sh",
+    "test": "node scripts/md-to-docx.mjs --help"
+  },
+  "keywords": [
+    "legal-writing",
+    "academic-paper",
+    "docx",
+    "cnki",
+    "footnote"
+  ],
+  "author": "h4yren",
+  "license": "MIT",
+  "dependencies": {
+    "docx": "^8.5.0"
+  }
+}

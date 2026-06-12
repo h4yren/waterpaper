@@ -1,0 +1,30 @@
+{
+  "project_name": "我的论文项目",
+  
+  "references": {
+    "dir": "参考文献",
+    "index": "参考文献/INDEX.md",
+    "pdf_dir": "参考文献"
+  },
+  
+  "chapters": {
+    "dir": "chapters",
+    "pattern": "ch{N:02d}.md"
+  },
+  
+  "output": {
+    "dir": "output",
+    "naming": "第{中文数字}章_{标题}.docx"
+  },
+  
+  "generator": {
+    "engine": "docx-js",
+    "script": "~/.config/opencode/skills/waterpaper/scripts/md-to-docx.mjs",
+    "format": "中国法学"
+  },
+  
+  "search": {
+    "default_platforms": ["cnki", "semantic_scholar"],
+    "cnki_databases": ["YSTT4HG0", "LSTPFHG2", "IPFD9Y60"]
+  }
+}
