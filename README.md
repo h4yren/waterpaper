@@ -11,11 +11,6 @@
 - 📄 自动生成符合《中国法学》格式的docx
 - ⚙️ 配置化设计，支持多项目
 
-## 快速安装
-
-\`\`\`bash
-curl -fsSL https://raw.githubusercontent.com/yourname/waterpaper/main/install.sh | bash
-\`\`\`
 
 ## 使用方法
 
